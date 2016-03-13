@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fpinfsharp", "fpinfsharp\fpinfsharp.fsproj", "{988B7669-7901-48FD-849D-FF8D44E78E02}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "test", "test\test.fsproj", "{2AB0FCD3-835A-4099-8820-C28BEA4B5C5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{5DD5A766-A29D-4501-9CEA-57C77FE829BF}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988B7669-7901-48FD-849D-FF8D44E78E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988B7669-7901-48FD-849D-FF8D44E78E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988B7669-7901-48FD-849D-FF8D44E78E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988B7669-7901-48FD-849D-FF8D44E78E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB0FCD3-835A-4099-8820-C28BEA4B5C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB0FCD3-835A-4099-8820-C28BEA4B5C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB0FCD3-835A-4099-8820-C28BEA4B5C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB0FCD3-835A-4099-8820-C28BEA4B5C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

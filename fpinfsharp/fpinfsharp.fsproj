@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Chapter03_list.fs" />
     <Compile Include="Chapter03_tree.fs" />
+    <Compile Include="Chapter06_rng.fs" />
+    <Compile Include="Chapter06_state.fs" />
+    <Compile Include="Chapter06_candy_dispenser.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

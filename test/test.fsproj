@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Test03_list.fs" />
     <Compile Include="Test03_tree.fs" />
+    <Compile Include="Test04_option.fs" />
     <Compile Include="test06_rng.fs" />
     <Content Include="packages.config" />
     <None Include="runtests.bat" />

@@ -18,18 +18,15 @@ let setHead (head: 'a) (list: List<'a>): List<'a> =
 
 // Ex3.4
 let rec drop (n: int) (list: List<'a>): List<'a> =
-    if n<= 0 then list
-    else
-        match list with
-        | Nil -> Nil
-        | Cons(_, tail) -> drop (n-1) tail
+    match list with
+    | Cons(_, tail) when n>0-> drop (n-1) tail
+    | _ -> list
 
 // Ex3.5
 let rec dropWhile (f: 'a->bool) (list: List<'a>): List<'a> =
     match list with
-    | Nil -> Nil
-    | Cons(h, _) when not (f h) -> list
-    | Cons(_, tail) -> dropWhile f tail
+    | Cons(h, tail) when f h-> dropWhile f tail
+    | _ -> list
 
 // Ex3.6
 let rec init (list: List<'a>): List<'a> =
